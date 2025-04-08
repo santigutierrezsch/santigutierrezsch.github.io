@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Gutierrez | Developer</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <meta name="description" content="Santiago Gutierrez - Software Developer and Engineer specializing in interactive digital experiences">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="preload">
+    <!-- Cursor -->
+    <div class="custom-cursor"></div>
+    
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="loader-circle" cx="40" cy="40" r="32"></circle>
+            </svg>
+            <div class="loader-text">
+                <span>L</span>
+                <span>O</span>
+                <span>A</span>
+                <span>D</span>
+                <span>I</span>
+                <span>N</span>
+                <span>G</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="bg-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+        <div class="bg-circle circle-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo reveal-element">
+                    <a href="#" class="logo-link">
+                        <span class="logo-text">Santi.</span>
+                    </a>
+                </div>
+                
+                <div class="navigation-wrapper">
+                    <nav class="primary-nav">
+                        <ul class="nav-list">
+                            <li class="nav-item reveal-element" data-delay="0.1"><a href="#hero" class="nav-link active">Home</a></li>
+                            <li class="nav-item reveal-element" data-delay="0.15"><a href="#about" class="nav-link">About</a></li>
+                            <li class="nav-item reveal-element" data-delay="0.2"><a href="#skills" class="nav-link">Skills</a></li>
+                            <li class="nav-item reveal-element" data-delay="0.25"><a href="#projects" class="nav-link">Projects</a></li>
+                            <li class="nav-item reveal-element" data-delay="0.3"><a href="#contact" class="nav-link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="header-controls">
+                    <button class="theme-toggle reveal-element" data-delay="0.35" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon moon-icon"></i>
+                        <i class="fas fa-sun sun-icon"></i>
+                    </button>
+                    
+                    <button class="menu-toggle reveal-element" data-delay="0.4" aria-label="Toggle mobile menu">
+                        <span class="hamburger">
+                            <span class="hamburger-line"></span>
+                            <span class="hamburger-line"></span>
+                            <span class="hamburger-line"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-inner">
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-item"><a href="#hero" class="mobile-nav-link">Home</a></li>
+                    <li class="mobile-nav-item"><a href="#about" class="mobile-nav-link">About</a></li>
+                    <li class="mobile-nav-item"><a href="#skills" class="mobile-nav-link">Skills</a></li>
+                    <li class="mobile-nav-item"><a href="#projects" class="mobile-nav-link">Projects</a></li>
+                    <li class="mobile-nav-item"><a href="#contact" class="mobile-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-socials">
+                <a href="https://github.com/santigutierrezsch" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/santiago-gutierrez-95478a342/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/sgutierrezsch" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/sgutierrezsch/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="hero-subtitle reveal-element" data-delay="0.1">Hello, I'm</span>
+                        <h1 class="hero-title">
+                            <span class="title-line reveal-element" data-delay="0.2">Santiago</span>
+                            <span class="title-line reveal-element" data-delay="0.3">Gutierrez</span>
+                        </h1>
+                        <div class="hero-description reveal-element" data-delay="0.4">
+                            <p>Software Developer & Engineer</p>
+                        </div>
+                        <div class="hero-cta reveal-element" data-delay="0.5">
+                            <a href="#contact" class="btn btn-primary">Get in touch</a>
+                            <a href="#projects" class="btn btn-outline">View projects</a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image-wrapper reveal-element" data-delay="0.3">
+                        <div class="hero-image">
+                            <img src="images/mainpic.jpg" alt="Santiago Gutierrez" class="profile-image">
+                            <div class="image-decoration"></div>
+                        </div>
+                        <div class="floating-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="scroll-indicator reveal-element" data-delay="0.8">
+                    <a href="#about" class="scroll-down">
+                        <span>Scroll Down</span>
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag reveal-element">About Me</span>
+                    <h2 class="section-title reveal-element">Passionate about<br>creating digital experiences</h2>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-image-column">
+                        <div class="about-image-wrapper reveal-element">
+                            <div class="about-image">
+                                <img src="images/mainpic.jpg" alt="Santiago Gutierrez" class="profile-image-large">
+                                <div class="image-overlay"></div>
+                            </div>
+                            <div class="experience-badge">
+                                <span class="experience-number">2+</span>
+                                <span class="experience-text">Years of Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-text-column">
+                        <div class="about-text reveal-element">
+                            <p class="lead-text">Hello! I'm <strong>Santiago Gutierrez</strong>, a software developer focused on creating intuitive and dynamic digital experiences.</p>
+                            
+                            <p>My journey in web development is driven by my passion for <em>computer science</em> and <em>programming</em>. I enjoy the process of transforming ideas into reality through code and design.</p>
+                            
+                            <p>I believe in continuous learning and staying updated with the latest technologies to deliver the best possible solutions. My approach combines technical expertise with creative problem-solving to build websites that are both functional and visually appealing.</p>
+                        </div>
+                        
+                        <div class="about-details">
+                            <div class="detail-row reveal-element" data-delay="0.1">
+                                <div class="detail-item">
+                                    <span class="detail-label">Name</span>
+                                    <span class="detail-value">Santiago Gutierrez</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Email</span>
+                                    <span class="detail-value">santigutierrezsch@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="detail-row reveal-element" data-delay="0.2">
+                                <div class="detail-item">
+                                    <span class="detail-label">Location</span>
+                                    <span class="detail-value">Naperville, IL</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Availability</span>
+                                    <span class="detail-value">Open to opportunities</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--
+                        <div class="about-cta reveal-element" data-delay="0.3">
+                            <a href="Santiago_Gutierrez_Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Download CV <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag reveal-element">My Skills</span>
+                    <h2 class="section-title reveal-element">Technical Expertise</h2>
+                    <p class="section-description reveal-element">A collection of my technical skills and the technologies I work with</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-card reveal-element" data-delay="0.1">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3 class="skill-title">HTML5</h3>
+                        <div class="skill-progress">
+                            <span class="progress-bar" data-value="80%"></span>
+                            <span class="progress-text">80%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card reveal-element" data-delay="0.2">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3 class="skill-title">CSS3</h3>
+                        <div class="skill-progress">
+                            <span class="progress-bar" data-value="85%"></span>
+                            <span class="progress-text">85%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card reveal-element" data-delay="0.3">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3 class="skill-title">JavaScript</h3>
+                        <div class="skill-progress">
+                            <span class="progress-bar" data-value="60%"></span>
+                            <span class="progress-text">60%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card reveal-element" data-delay="0.4">
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="skill-title">Responsive Design</h3>
+                        <div class="skill-progress">
+                            <span class="progress-bar" data-value="75%"></span>
+                            <span class="progress-text">75%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card reveal-element" data-delay="0.5">
+                        <div class="skill-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3 class="skill-title">Git & GitHub</h3>
+                        <div class="skill-progress">
+                            <span class="progress-bar" data-value="65%"></span>
+                            <span class="progress-text">65%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card reveal-element" data-delay="0.6">
+                        <div class="skill-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="skill-title">Problem Solving</h3>
+                        <div class="skill-progress">
+                            <span class="progress-bar" data-value="93%"></span>
+                            <span class="progress-text">93%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag reveal-element">My Work</span>
+                    <h2 class="section-title reveal-element">Featured Projects</h2>
+                    <p class="section-description reveal-element">A selection of my recent works and personal projects</p>
+                </div>
+                
+                <div class="project-filters reveal-element">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="development">Development</button>
+                    <button class="filter-btn" data-filter="ui">UI/UX</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card reveal-element" data-category="web development">
+                        <div class="project-image">
+                            <img src="images/personal-portfolio-thumbnail.png" alt="Project 1">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Web Development</span>
+                            <h3 class="project-title">Personal Portfolio</h3>
+                            <p class="project-description">A responsive personal portfolio website built with HTML, CSS and JavaScript.</p>
+                            <a href="https://santigutierrezsch.com" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                        <div class="project-card reveal-element" data-category="web design">
+                            <div class="project-image">
+                                <img src="images/sghub.png" alt="Project 2">
+                            </div>
+                            <div class="project-content">
+                                <span class="project-category">Web Design</span>
+                                <h3 class="project-title">Game and Apps Hub</h3>
+                                <p class="project-description">A responsive hub with games and apps built with HTML, CSS and JavaScript.</p>
+                                <a href="https://sggames.online" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i>
+                                </a>                                
+                            </div>
+                        </div>
+                        <div class="project-card reveal-element" data-category="web development">
+                            <div class="project-image">
+                                <img src="images/tspmoicl.com.png" alt="Project 2">
+                            </div>
+                            <div class="project-content">
+                                <span class="project-category">Web Development</span>
+                                <h3 class="project-title">Brainrot Typer</h3>
+                                <p class="project-description">A fun brainrot term generator with different themes and an editable word list.</p>
+                                <a href="https://tspmoicl.com" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i>
+                                </a>                                
+                            </div>
+                        </div>
+                    <!---
+                    
+                    <div class="project-card reveal-element" data-category="development">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/600x450" alt="Project 2">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Development</span>
+                            <h3 class="project-title">Task Manager App</h3>
+                            <p class="project-description">A simple task manager application to organize daily activities.</p>
+                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card reveal-element" data-category="ui">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/600x450" alt="Project 3">
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">UI/UX</span>
+                            <h3 class="project-title">E-commerce Redesign</h3>
+                            <p class="project-description">Redesigning the user interface for an e-commerce platform.</p>
+                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="projects-cta text-center reveal-element">
+                    <a href="#" class="btn btn-outline btn-large" target="_blank" rel="noopener noreferrer">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag reveal-element">Contact</span>
+                    <h2 class="section-title reveal-element">Get In Touch</h2>
+                    <p class="section-description reveal-element">Feel free to reach out for collaborations or just a friendly hello</p>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-info reveal-element">
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Email</h3>
+                                <p><a href="mailto:santigutierrezsch@gmail.com">santigutierrezsch@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Location</h3>
+                                <p>Naperville, Illinois</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>GitHub</h3>
+                                <p><a href="https://github.com/santigutierrezsch" target="_blank" rel="noopener noreferrer">github.com/santigutierrezsch</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/santiago-gutierrez-95478a342/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://x.com/sgutierrezsch" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/sgutierrezsch/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://dribbble.com/santigutierrezsch" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper reveal-element">
+                        <form action="https://formspree.io/f/meoarooo" method="POST" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="form-border"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="form-border"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <div class="form-border"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <div class="form-border"></div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo-link">
+                        <span class="logo-text">Santi.</span>
+                    </a>
+                </div>
+                
+                <div class="footer-links">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="footer-socials">
+                    <a href="https://github.com/santigutierrezsch" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/santiago-gutierrez-95478a342/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/sgutierrezsch" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/sgutierrezsch/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Santiago Gutierrez. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#header" class="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+</html>
