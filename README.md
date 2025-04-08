@@ -6,6 +6,7 @@ Built to showcase my projects, skills, and everything about me as a developer.
 ## 🌐 Live Website
 
 Check it out here: [https://santigutierrezsch.com](https://santigutierrezsch.com)
+Also available at: [https://santigutierrezsch.github.io](https://santigutierrezsch.github.io)
 
 
 ---
